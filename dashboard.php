@@ -28,7 +28,10 @@ if(!isset($_SESSION['id'])){
         $query = $dbh->prepare($sql);
 
         $query->execute();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 510f7d14ef32cc00c0a2b98fcebb6eefa08544b7
         
         $results = $query->fetchAll(PDO::FETCH_OBJ);
 
@@ -40,7 +43,11 @@ if(!isset($_SESSION['id'])){
     <section class="py-5">
         <div class="container">
             <h2 class="display-6 fw-semibold text-center">Welcome User : <?php echo strtoupper($username);?></h2>
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> 510f7d14ef32cc00c0a2b98fcebb6eefa08544b7
         </div>
     </section>
 </main> 

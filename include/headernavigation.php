@@ -14,5 +14,9 @@
                     </ul>
                 </div>
             </div>
+<<<<<<< HEAD
         </nav>        
+=======
+        </nav>
+>>>>>>> 510f7d14ef32cc00c0a2b98fcebb6eefa08544b7
     </section>
